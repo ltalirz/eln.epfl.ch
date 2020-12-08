@@ -16,7 +16,7 @@ With all synthesis or characterization data, we also store rich metadata.
 
 The idea is shown in the figure below. In the ideal case, the data is directly captured from the instruments, converted into a FAIR format and then stored as attachment in a [CouchDB database](https://en.wikipedia.org/wiki/Apache_CouchDB). In case this is not possible, the data can always be uploaded via drag-and-drop. A barcode system ensures that you can build a chemical library and that nothing is lost.
 
-<img src="../assets/img/importation.png"; style="width=20em">
+<img style="float: left; width: 20em" src="../assets/img/importation.png">
 
 ### Reusable
 
@@ -32,7 +32,7 @@ The way data is entered into the ELN is similar to how you would use your paper 
 The only difference is that everything is coupled, the reagent table automatically retrieves data from large chemical databases, and computes the stochiometry for you.
 For the most common characterization techniques in chemistry and materials science we built specific tools. You can predict and assign NMR spectra, analyze mass spectra by matching fragment or predict PXRD patterns for your crystal structures---all in the browser!
 
-<img src="../assets/img/pxrd_overview.png"; style="width=20em">
+<img style="float: left; width: 20em" src="../assets/img/pxrd_overview.png">
 
 ## The cheminfo ecosystem
 
