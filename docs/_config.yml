@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   News and background about the electronic lab notebook eln.epfl.ch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: cheminfo
 github_username: cheminfo
 
@@ -31,6 +32,7 @@ github_username: cheminfo
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,3 +60,4 @@ collections:
     permalink: /:collection/:name
 
 permalink: /:categories/:title/
+show_excerpts: true
