@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-08T09:10:24+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">eln.epfl.ch</title><subtitle>News and background about the electronic lab notebook eln.epfl.ch</subtitle><entry><title type="html">New seminar series / graduate course</title><link href="http://localhost:4000/tutorial/news/course_series/" rel="alternate" type="text/html" title="New seminar series / graduate course" /><published>2020-12-07T19:53:30+01:00</published><updated>2020-12-07T19:53:30+01:00</updated><id>http://localhost:4000/tutorial/news/course_series</id><content type="html" xml:base="http://localhost:4000/tutorial/news/course_series/">&lt;p&gt;Over the last year we had the opportunity to participate in 4 doctoral school classes and it appears that some features of eln.epfl.ch that can be used to solve research projects are not well known.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/eln.epfl.ch/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/eln.epfl.ch/" rel="alternate" type="text/html" /><updated>2020-12-08T09:34:11+01:00</updated><id>http://localhost:4000/eln.epfl.ch/feed.xml</id><title type="html">eln.epfl.ch</title><subtitle>News and background about the electronic lab notebook eln.epfl.ch</subtitle><entry><title type="html">New seminar series / graduate course</title><link href="http://localhost:4000/eln.epfl.ch/tutorial/news/course_series/" rel="alternate" type="text/html" title="New seminar series / graduate course" /><published>2020-12-07T19:53:30+01:00</published><updated>2020-12-07T19:53:30+01:00</updated><id>http://localhost:4000/eln.epfl.ch/tutorial/news/course_series</id><content type="html" xml:base="http://localhost:4000/eln.epfl.ch/tutorial/news/course_series/">&lt;p&gt;Over the last year we had the opportunity to participate in 4 doctoral school classes and it appears that some features of eln.epfl.ch that can be used to solve research projects are not well known.
 For this reason we will organize some short (max 30 min) seminars by Zoom on regular base. They will take place Monday at 5PM by zoom.&lt;/p&gt;
 
 &lt;h2 id=&quot;preliminary-schedule&quot;&gt;Preliminary schedule&lt;/h2&gt;
@@ -109,10 +109,10 @@ For this reason we will organize some short (max 30 min) seminars by Zoom on reg
 &lt;div class=&quot;post-categories&quot;&gt;
   
   
-  &lt;a href=&quot;/categories/#tutorial&quot;&gt;tutorial&lt;/a&gt;
+  &lt;a href=&quot;/eln.epfl.ch/categories/#tutorial&quot;&gt;tutorial&lt;/a&gt;
   &amp;nbsp;
   
-  &lt;a href=&quot;/categories/#news&quot;&gt;news&lt;/a&gt;
+  &lt;a href=&quot;/eln.epfl.ch/categories/#news&quot;&gt;news&lt;/a&gt;
   
   
 &lt;/div&gt;</content><author><name></name></author><category term="tutorial" /><category term="news" /><summary type="html">Over the last year we had the opportunity to participate in 4 doctoral school classes and it appears that some features of eln.epfl.ch that can be used to solve research projects are not well known. For this reason we will organize some short (max 30 min) seminars by Zoom on regular base. They will take place Monday at 5PM by zoom.</summary></entry></feed>
