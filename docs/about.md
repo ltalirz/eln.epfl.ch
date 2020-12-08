@@ -24,7 +24,7 @@ The ELN is developed in a modular fashion that makes it possible to quickly adap
 
 ## The cheminfo ecosystem
 
-We did not build the ELN, but more than 150 other libraries which are part of the following GitHub organizations
+We did not only build the ELN, but more than 150 other libraries which are part of the following GitHub organizations
 
 - [mljs](https://github.com/mljs): Libraries for linear algebra, optimization
 - [image-js](https://github.com/image-js): Image analysis
