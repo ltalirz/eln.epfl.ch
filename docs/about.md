@@ -14,6 +14,10 @@ The ELN takes care of converting all files into [FAIR](https://www.go-fair.org/f
 
 With all synthesis or characterization data, we also store rich metadata.
 
+The idea is shown in the figure below. In the ideal case, the data is directly captured from the instruments, converted into a FAIR format and then stored as attachment in a [CouchDB database](https://en.wikipedia.org/wiki/Apache_CouchDB). In case this is not possible, the data can always be uploaded via drag-and-drop. A barcode system ensures that you can build a chemical library and that nothing is lost.
+
+<img src="assets/img/importation.png"; width="20em">
+
 ### Reusable
 
 If you use eln.epfl.ch you can create data archives that can be reused by collaborators or readers of your paper. The archives are structured such that they can be understood by machines (following ideas of the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web)) and accompanied by a link that can be used to visualize the data.
@@ -21,6 +25,14 @@ If you use eln.epfl.ch you can create data archives that can be reused by collab
 ### Aigle development: Ready for any kind of information
 
 The ELN is developed in a modular fashion that makes it possible to quickly adapted to new requirements or to implement new tools or data formats. The formats that are currently supported are documented in the [database schema](https://cheminfo.github.io/data_schema/).
+
+### Built by chemists for chemists
+
+The way data is entered into the ELN is similar to how you would use your paper based lab notebook. You can have a reaction diagram, a reagent table, and a description of the synthesis.
+The only difference is that everything is coupled, the reagent table automatically retrieves data from large chemical databases, and computes the stochiometry for you.
+For the most common characterization techniques in chemistry and materials science we built specific tools. You can predict and assign NMR spectra, analyze mass spectra by matching fragment or predict PXRD patterns for your crystal structures---all in the browser!
+
+<img src="assets/img/pxrd_overview.png"; width="20em">
 
 ## The cheminfo ecosystem
 
