@@ -1,0 +1,36 @@
+I"<h1 id="what-is-elnepflch">What is eln.epfl.ch?</h1>
+
+<p>The eln.epfl.ch is a <a href="https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo#:~:text=A%20fork%20is%20a%20copy,without%20affecting%20the%20original%20project">fork</a> of the ELN developed by the <a href="github.com/cheminfo">cheminfo GitHub organization</a></p>
+
+<h1 id="what-makes-it-different-form-other-elns">What makes it different form other ELNs?</h1>
+
+<p><em>With eln.epfl.ch <a href="https://www.go-fair.org/fair-principles/">FAIR data</a> is not an afterthought of a data management plan (DMP).</em></p>
+
+<p>Upon importation to the ELN all data are converted into standardized, and open formats like <a href="http://jcamp-dx.org/">JCAMP-DX</a>. All synthesis, analysis, and notes can be exported with metadata to a Zenodo in a form that is amenable to datamining efforts</p>
+
+<p><em>Data is “alive all the time</em></p>
+
+<p>You can interact with the data in the ELN. You can peak picks, analyze it, superimpose it, zoom into it. But you—or the readers of your paper—can use the same functionalities after export to Zenodo.</p>
+
+<p><em>Free and open-source</em></p>
+
+<p>All software we develop(ed) for this ELN is free and open-source. This means that you can inspect in detail what is happening when we convert file formats or analyze your data—something that is typically not possible with proprietary software.</p>
+
+<h1 id="is-this-production-ready">Is this production-ready?</h1>
+
+<p>Many research groups around the world and at EPFL use it for production. In fact, many ISIC services, like the elemental analysis, are tightly integrated with the ELN.</p>
+
+<p>For the ELN, we have developed about 180 packages which receive about 250’000 downloads per week—but not only for chemistry applications! <a href="https://webkit.org/blog/7536/jsc-loves-es6/">Browsers use one of our packages to perform speedtests</a> and our most popular package, <a href="https://github.com/mljs/ml">ml</a> has <a href="https://github.com/mljs/ml/stargazers">more than two thousand stars on GitHub</a>.</p>
+
+<h1 id="how-can-i-get-started">How can I get started?</h1>
+
+<p>If you are based at EPFL, it is easy! You just have to visit eln.epfl.ch and log in with your GASPAR account.</p>
+
+<p>If you are not based at EPFL, you can use many of the functionalities at c6h6.org or <a href="https://github.com/cheminfo/roc-eln-docker">deploy your own ELN</a>.</p>
+
+<h1 id="where-is-my-data-stored">Where is my data stored?</h1>
+
+<p>The system is configured as <a href="https://en.wikipedia.org/wiki/Multi-master_replication">double master</a> meaning there are two master databases that are in different buildings at EPFL and are continuously synchronized.</p>
+
+<p>Data can be nightly exported to the file system (e.g., <code class="language-plaintext highlighter-rouge">sb1files.epfl.ch</code>) so that you can anytime leave with all your data. Data can be published in a couple of clicks to Zenodo (for <a href="https://zenodo.org/record/4044212">here</a> for an example) or downloaded as zip?</p>
+:ET
