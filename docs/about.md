@@ -43,3 +43,6 @@ We did not only build the ELN, but more than 150 other libraries which are part 
 - [cheminfo](https://github.com/cheminfo): Cheminformatics tools, like parsers for all kinds of characterization techniques
 - [cheminfo-js](https://github.com/cheminfo-js): Cheminformatics tools
 - [cheminfo-py](https://github.com/cheminfo-py): Webservices, e.g., for PXRD pattern predictiion or topology analysis
+
+
+{% include youtube.html id=page.SHN07asZaGc %}
