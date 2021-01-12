@@ -54,11 +54,13 @@ pub in publications %}
       />
     </a>
   </div>
-  <div class="pubtitle">{{ pub.title }}</div>
-  <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
-  <div class="doi">
-    <a href="https://doi.org/{ pub.doi }}"> {{ pub.doi }}</a>
+  <div>
+    <div class="pubtitle">{{ pub.title }}</div>
+    <div class="pubauthors">{{ pub.authors }}</div>
+    <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+    <div class="doi">
+      <a href="https://doi.org/{ pub.doi }}"> {{ pub.doi }}</a>
+    </div>
   </div>
   <!-- <div class="preprint">
     <a href="{{ pub.preprintpdf }}"><i class="far fa-file-pdf"></i> PDF</a
