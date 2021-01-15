@@ -6,7 +6,7 @@ categories: [tutorial, news]
 ---
 
 Over the last year we had the opportunity to participate in 4 doctoral school classes and it appears that some features of eln.epfl.ch that can be used to solve research projects are not well known.
-For this reason we will organize some short (max 30 min) seminars by Zoom (https://epfl.zoom.us/j/81068501953) on regular base. They will take place Monday at 5PM by zoom.
+For this reason we will organize some short (max 30 min) seminars by Zoom (https://epfl.zoom.us/j/81068501953) on regular base. They will take place Monday at 5PM (Swiss time) by Zoom.
 
 ## Schedule
 
