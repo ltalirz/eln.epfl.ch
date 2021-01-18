@@ -19,7 +19,7 @@ The first seminar will focus on the "big picture"
 - Extract knowledge
 - Publish information to Zenodo
 
-<a href="../../../../assets/files/topic1.pdf">Slides</a>
+<a href="../../../../docs/assets/files/topic1.pdf">Slides</a>
 
 ### 1.2.2021: Add a new sample
 
