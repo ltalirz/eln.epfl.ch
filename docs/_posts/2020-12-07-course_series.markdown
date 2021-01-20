@@ -71,7 +71,7 @@ The first seminar will focus on the "big picture"
 - Match to pattern in database using Deep Learning
 - Look up PXRD patterns form database
 
-### 24.5.2021: Multiple spectra analysis
+### 25.5.2021: Multiple spectra analysis
 
 - Superimpose hundreds of spectra in one click
 - Integration, relative spectra
@@ -83,7 +83,7 @@ The first seminar will focus on the "big picture"
 - Principal component Analysis (PCA)
 - Uniform Manifold Approximation and Projection (UMAP)
 
-### 21.6.2021: Data exportation
+### 14.6.2021: Data exportation
 
 - Create reports
 - Export to Zenodo
