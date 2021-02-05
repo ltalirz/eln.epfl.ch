@@ -27,7 +27,7 @@ We like to use the following plugins:
 
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github): To review pull requests from VS Code and show issues, you can directly "start working on an issue" and make a new branch.
 
-It is also really useful to browse in the store as there are plugins for any possible application, i.e., to [color columns in csv files](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), [highlight syntax in CIFs](https://marketplace.visualstudio.com/items?itemName=thisperiodictable.cif), [colorize matching brackets](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), or to [launch a live development server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+It is also really useful to browse in the store as there are plugins for any possible application, i.e., to [color columns in csv files](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), [highlight syntax in CIFs](https://marketplace.visualstudio.com/items?itemName=thisperiodictable.cif), [colorize matching brackets](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), or to [launch a live development server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). If you want to try incredible, deep learning powered, autocomplete you can give the [tabnine plugin](https://www.tabnine.com/) a shot.
 
 To install a plugin you can just click on the extensions symbol (building blocks on the left menu bar) and then search for the extension you want and click on "install".
 
