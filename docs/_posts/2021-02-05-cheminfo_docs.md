@@ -56,7 +56,7 @@ To contribute to the documentation you need a [GitHub account](https://docs.gith
 2. In you fork (i.e., your personal copy) you can click on the ["clone"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) button, copy the URL
    <img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/clone.png">
 
-   In your terminal run `git clone <myurl>` (in my case `git clone git clone https://github.com/kjappelbaum/c6h6-documentation`). This will create a new folder in which you can go with `cd c6h6-documentation`. In this folder you can type `code .`, which will open VSCode (note that is easiest to start with the `HTTPS` URL, if you get used to working with GitHub it can be useful to [upload your SSH keys for authentication](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)).
+   In your terminal run `git clone <myurl>` (in my case `git clone git clone https://github.com/kjappelbaum/c6h6-documentation`). This will create a new folder in which you can go with `cd c6h6-documentation`. In this folder you can type `code .`, which will open VSCode (note that is easiest to start with the `HTTPS` URL, if you get used to working with GitHub it can be useful to [upload your SSH keys for authentication](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)). On Windows [you can perform these changes using command prompt](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/)
 
 3. In VSCode, you can use the footer to make new branch. Likely, it will write "master".
    <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/branch.png">
@@ -129,6 +129,8 @@ It is good practice tha make a folder `images` for the images you add to the doc
 ## Hands on walkthrough
 
 In the short video below we show you how you fork the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book), make a new branch, make and commit changes to the documentation and then make a pull request.
+
+{% include youtube.html id="SLvsZwa5KfY" %}
 
 <hr>
 
