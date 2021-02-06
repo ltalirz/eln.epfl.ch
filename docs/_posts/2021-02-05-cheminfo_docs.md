@@ -11,7 +11,7 @@ In this blog post we will discuss where you can find help in the ELN and how you
 
 If you have been using the ELN you might have been noticing that there is a question mark icon in the top left corner of some pages in the ELN. If you click on it, it will open a popup with help relevant to the view you're currently looking at.
 
-<img style="float:center; width: 30em" src="/assets/img/developer_tools/help_example.png">
+<img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/help_example.png">
 
 All of this is built using [GitBook](https://github.com/GitbookIO/gitbook) which allows converting [markdown files](https://www.markdownguide.org/) into something that looks like an online book.
 The core of the documentation is in the `src/book` folder of the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book) where you can find subfolders for different categories.
@@ -20,7 +20,7 @@ The core of the documentation is in the `src/book` folder of the [c6h6-documenta
 
 You might now ask yourself how the mapping between the view in the ELN and the page in the documentation works. This is set up in `index.yml` files like [this here for the PXRD documentation](https://github.com/cheminfo/c6h6-documentation/blob/master/src/book/spectra/pxrd/index.yml). The file contains one key called `uuid` which is the [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier) of the view. If we analyze the requests the ELN makes using the [network tab in the developer tools](https://developers.google.com/web/tools/chrome-devtools/network/) we find that this is indeed the UUID of the view.
 
-<img style="float:center; width: 30em" src="/assets/img/developer_tools/uuid_developer_tools.png">
+<img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/uuid_developer_tools.png">
 
 This is also what we find in the [visualizer helper library](https://github.com/cheminfo-js/visualizer-helper/blob/150b2bfea7a0d50778a85b53d2fad51939bde9d8/util/tips.js#L13-L26): for a given view we get the UUID `info._id` and then can use this to find the correct `yml` file that configures the sections of the documentation.
 
@@ -68,7 +68,7 @@ To contribute to the documentation you need a [GitHub account](https://docs.gith
 
 4. Then you can start making the changes in the relevant files
 5. Using the version control icon in the activity bar on the left you can ["stage" and then "commit"](https://githowto.com/staging_and_committing) the changes you made. For this you can just write a message like `doc: fixed typos in the isotherm documentation` and then click on the checkmark
-   <img style="float:center width: 16em" src="{{ site.url }}/assets/img/developer_tools/source_control.png">
+   <img style="float:center; width: 20em" src="{{ site.url }}/assets/img/developer_tools/source_control.png">
 6. Once you committed your changes, you can push them using the "synchronize changes" icon in the footer (status bar) of VSCode.
 7. Once you have pushed the changes you'll see that there is a banner in your fork that gives you the option to make a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) by clicking on a green button.
    <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/pr_button.png">
