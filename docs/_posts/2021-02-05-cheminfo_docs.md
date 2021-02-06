@@ -52,26 +52,26 @@ Since the documentation lives in simple markdown files on GitHub you can contrib
 To contribute to the documentation you need a [GitHub account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account), you need to [install Git locally](https://git-scm.com/downloads/), and we recommend that you install [VSCode](https://code.visualstudio.com/) and a markdown plugin. The first points are explained in our contribution guidelines while latter is discussed in the first sections of our blog post about the development setup. Once you have all of this setup you can
 
 1. Go to the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book) and click on fork
-   <img style="float:center; width: 30em" src="/assets/img/developer_tools/c6h6_repo.png">
+   <img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/c6h6_repo.png">
 2. In you fork (i.e., your personal copy) you can click on the ["clone"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) button, copy the URL
-   <img style="float:center; width: 30em" src="/assets/img/developer_tools/clone.png">
+   <img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/clone.png">
 
    In your terminal run `git clone <myurl>` (in my case `git clone git clone https://github.com/kjappelbaum/c6h6-documentation`). This will create a new folder in which you can go with `cd c6h6-documentation`. In this folder you can type `code .`, which will open VSCode (note that is easiest to start with the `HTTPS` URL, if you get used to working with GitHub it can be useful to [upload your SSH keys for authentication](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)).
 
 3. In VSCode, you can use the footer to make new branch. Likely, it will write "master".
-   <img style="float:center; width: 25em" src="/assets/img/developer_tools/branch.png">
+   <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/branch.png">
 
    If you click on this a small editor opens that allows you to make a new branch with a name of your choice.
    We recommend using a short name that describes the type of your change, e.g., `fix-isotherm-docs`
 
-   <img style="float:center; width: 25em" src="/assets/img/developer_tools/branch_name.png">
+   <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/branch_name.png">
 
 4. Then you can start making the changes in the relevant files
 5. Using the version control icon in the activity bar on the left you can ["stage" and then "commit"](https://githowto.com/staging_and_committing) the changes you made. For this you can just write a message like `doc: fixed typos in the isotherm documentation` and then click on the checkmark
-   <img style="float:center width: 16em" src="/assets/img/developer_tools/source_control.png">
+   <img style="float:center width: 16em" src="{{ site.url }}/assets/img/developer_tools/source_control.png">
 6. Once you committed your changes, you can push them using the "synchronize changes" icon in the footer (status bar) of VSCode.
 7. Once you have pushed the changes you'll see that there is a banner in your fork that gives you the option to make a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) by clicking on a green button.
-   <img style="float:center; width: 25em" src="/assets/img/developer_tools/pr_button.png">
+   <img style="float:center; width: 25em" src="{{ site.url }}/assets/img/developer_tools/pr_button.png">
 8. If you can click this button, you'll be directed to a from where you can describe your changes and make the pull request.
 9. We will review the pull request and merge it to the main branch. As soon as the pull request is merged, GitHub will also show you as "Contributor".
 
@@ -83,7 +83,7 @@ At first, it might be intimidating to find the relevant files in the `c6h6-docum
 
 If there is also an existing page, you can just search across all files for some text from this page and VSCode will find the relevant file, in the screenshot below we only search for "XRD" and directly find the relevant files
 
-  <img style="float:center; width: 16em" src="/assets/img/developer_tools/xrd_search.png">
+  <img style="float:center; width: 16em" src="{{ site.url }}/assets/img/developer_tools/xrd_search.png">
 
 ### I want to add a new page
 
