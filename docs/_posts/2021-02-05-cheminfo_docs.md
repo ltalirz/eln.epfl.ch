@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Where can i find help in the ELN and how can I improve it?"
+title: "Where can I find help in the ELN and how can I improve it?"
 date: 2021-02-04 14:11
 categories: [tutorial]
 ---
@@ -11,7 +11,7 @@ In this blog post we will discuss where you can find help in the ELN and how you
 
 If you have been using the ELN you might have been noticing that there is a question mark icon in the top left corner of some pages in the ELN. If you click on it, it will open a popup with help relevant to the view you're currently looking at.
 
-<img style="float:center; width: 30em" src="{{ site.url }}/assets/img/developer_tools/help_example.png">
+<img style="float:center; width: 40em" src="{{ site.url }}/assets/img/developer_tools/help_example.png">
 
 All of this is built using [GitBook](https://github.com/GitbookIO/gitbook) which allows converting [markdown files](https://www.markdownguide.org/) into something that looks like an online book.
 The core of the documentation is in the `src/book` folder of the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book) where you can find subfolders for different categories.
