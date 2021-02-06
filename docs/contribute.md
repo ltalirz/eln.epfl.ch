@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contribute guide
+title: Contribution guide
 permalink: /contribute/
 ---
 
