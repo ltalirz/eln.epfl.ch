@@ -51,11 +51,18 @@ Most of the things you might want to do on GitHub can be done from VSCode. If yo
 
 The Source Control icon in the Activity Bar (`CTRL+SHIFT+G`) the left will list the uncommitted changes in your workspace, you can enter a commit message and use the checkmark to commit the changes.
 
+<img style="float:center width: 16em" src="../assets/img/developer_tools/source_control.png">
+
 In the footer you'll see an indication on which branch you are working on (and you can switch branches by clicking on it) and an icon that allows you to push the changes.
+
+<img style="width: 20em float:center" src="../assets/img/developer_tools/activity_bar.png">
 
 ### Pull requests and issues
 
-The [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows browsing issues and pull requests.
+The [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows browsing issues and pull requests. In the screenshot below we see that there are two pull requests in this particular repository one of which has been created by me and another one which has been created by [dependabot](https://dependabot.com/).
+We can also see a list of all issues and directly create a new branch that is linked to a particular issue by clicking on the arrow that appears when we hover over the list.
+
+<img style="width: 20em float:center" src="../assets/img/developer_tools/pr.png">
 
 # Other tools
 
