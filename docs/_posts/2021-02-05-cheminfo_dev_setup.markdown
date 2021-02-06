@@ -21,13 +21,15 @@ We like to use the following plugins:
 
 - [jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest): To test your code using [Facebook's jest](https://jestjs.io/)
 
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): This will underline lint errors in the code and suggest quick fixes. [This blog post by Digital Ocean gives some more information on how one can use ESlint with VSCode](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code)
+
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): For powerful markdown preview and keyboard shortcuts.
 
 - [Document this](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis): To insert [JSDoc](https://jsdoc.app/) docstrings.
 
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github): To review pull requests from VS Code and show issues, you can directly "start working on an issue" and make a new branch.
 
-It is also really useful to browse in the store as there are plugins for any possible application, i.e., to [color columns in csv files](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), [highlight syntax in CIFs](https://marketplace.visualstudio.com/items?itemName=thisperiodictable.cif), [colorize matching brackets](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), or to [launch a live development server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). If you want to try incredible, deep learning powered, autocomplete you can give the [tabnine plugin](https://www.tabnine.com/) a shot.
+It is also really useful to browse in the store as there are plugins for any possible application, i.e., to [color columns in csv files](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), [highlight syntax in CIFs](https://marketplace.visualstudio.com/items?itemName=thisperiodictable.cif), [colorize matching brackets](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), or to [launch a live development server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). If you want to try incredible, deep learning powered, autocomplete you can give the [tabnine plugin](https://www.tabnine.com/) a shot. For editing key/value pairs of any kind the [Toggle Column Selection](https://marketplace.visualstudio.com/items?itemName=erikphansen.vscode-toggle-column-selection) can be useful.
 
 To install a plugin you can just click on the extensions symbol (building blocks on the left menu bar) and then search for the extension you want and click on "install".
 

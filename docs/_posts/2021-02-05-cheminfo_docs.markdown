@@ -37,11 +37,66 @@ async function showTips(info) {
 
 And the [`processTipsToc`](https://github.com/cheminfo-js/visualizer-helper/blob/150b2bfea7a0d50778a85b53d2fad51939bde9d8/util/tips.js#L49-L61) function is then the one that actually pops up the documentation.
 
-# How can I help improving the documentation
+# How can I help improve the documentation
 
 Since the documentation lives in simple markdown files on GitHub you can contribute by simply editing the markdown files. The process is, as with all contributions to projects on GitHub, fork, edit, pull request.
 
-## Where do I make the changes? 
+## Getting started
+
+To contribute to the documentation you need a [GitHub account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account), you need to [install Git locally](https://git-scm.com/downloads/), and we recommend that you install [VSCode](https://code.visualstudio.com/) and a markdown plugin. The first points are explained in our contribution guidelines while latter is discussed in the first sections of our blog post about the development setup. Once you have all of this setup you can
+
+1. Go to the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book) and click on fork
+2. In you fork (i.e., your personal copy) you can click on the ["clone"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) button, copy the URL and in your terminal run `git clone <myurl>`. This will create a new folder in which you can go with `cd c6h6-documentation`. In this folder you can type `code .`, which will open VSCode
+3. In VSCode, you can use the footer to make new branch. We recommend to use a short name that describes the type of your change, e.g., `isotherm-doc-fixes`
+4. Then you can start making the changes in the relevant files
+5. Using the version control icon in the activity bar on the left you can ["stage" and then "commit"](https://githowto.com/staging_and_committing) the changes you made. For this you can just write a message like `doc: fixed typos in the isotherm documentation` and then click on the checkmark
+6. Once you commited your changes, you can push them using the "synchronize changes" icon in the footer (status bar) of VScode.
+7. Once you have pushed the changes you'll see that there is a banner in your fork that gives you the option to make a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) by clicking on a green button.
+8. If you can click this button, you'll be directed to a from where you can describe your changes and make the pull request.
+9. We will review the pull request and merge it to the main branch.
+
+## Where do I make the changes?
+
+At first, it might be intimidating to find the relevant files in the `c6h6-documentation`, but in practice it is easy to find the file you need to edit
+
+### I want to fix a typo or extend an existing page
+
+If there is also an existing page, you can just search across all files for some text from this page and VSCode will find the relevant file
+
+### I want to add a new page
+
+Adding a new page is slightly more difficult
+
+First, it is usually good to get inspired by existing pages. This is, if you want to add some documentation for IV curves you might find it practical to get started by copy/pasting the XRD documentation folder.
+
+### Basics of markdown
+
+Even if you now have the file you want to edit or create you still might wonder how you need to structure the file. All the files are written in markdown, which in contrast to Microsoft Word or Google Docs follows the ["what you see is what you mean" principle](https://en.wikipedia.org/wiki/WYSIWYM). That is, there is usually some syntax you need to use to format your text, e.g., to make it bold or to make a header. To make it easier to see what is going on, you can open the ["Preview" in VSCode which will automatically update the document based on the markdown "code" you write](https://code.visualstudio.com/Docs/languages/markdown).
+
+The markdown syntax is pretty easy and there only a few things you need to know to make contributions to the documentation:
+
+- To create headings, markdown uses hashtags (`#`). The number of hashtags indicates the heading level. That is, you might do something like
+
+```markdown
+# Section
+
+## Subsection
+
+### Subsubsection
+```
+
+And markdown will automatically adjust the fontsize for you and these headings can also be used for navigation or to create a table of contents.
+
+- To add a hyperlink you will use `[linktext](link)`, if you want to link to google you might write something link `for more details you can just [google](www.google.com) it`.
+
+- To make something **bold** you can use double underscores `__bold__`
+- To _italicize_ something you can use stars `*in italics*`
+- To add an image you use syntax that is quite similar to the hyperlink syntax `![alternative text](link to image)`
+- If you need to add some formula you can use our [LaTeX generator tool](http://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F12c971bb3f9d5f93dfbf82f27e089d35%2Fview.json&loadversion=true&fillsearch=Convert+tex+latex+for+github) that will give you an "URL" that you can use with the image syntax, e.g, `![quadratic formula](https://tex.cheminfo.org/?tex=x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D)` will yield ![quadratic formula](https://tex.cheminfo.org/?tex=x%20%3D%20%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2-4ac%7D%20%5Cover%202a%7D)
+
+## Hands on walkthrough
+
+In the short video below we show you how you fork the [c6h6-documentation repository](https://github.com/cheminfo/c6h6-documentation/tree/master/src/book), make a new branch, make and commit changes to the documentation and then make a pull request.
 
 <hr>
 
