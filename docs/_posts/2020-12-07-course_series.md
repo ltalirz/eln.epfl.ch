@@ -35,6 +35,9 @@ The first seminar will focus on the "big picture"
 - Define a location and status.
 - Update the stock.
 
+<a href="https://www.dropbox.com/s/f0rbmm5xiiu53i3/20200214_chemical_libraries.pdf?dl=1">Slides</a>
+
+
 ### 1.3.2021: Monoisotopic mass
 
 - Determine possible molecular formula from monoisotopic mass
